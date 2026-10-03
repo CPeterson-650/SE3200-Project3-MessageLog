@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rapture Message Log</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="terminal">
+
+        <header>
+            <h1>Rapture Message Log</h1>
+
+            <p>
+                Send and review communications stored within the
+                Rapture communications network.
+            </p>
+        </header>
+
+
+        <section class="message-form-section">
+
+            <h2>Record Message</h2>
+
+            <form id="message-form">
+
+                <label for="message-input">
+                    Message
+                </label>
+
+                <textarea
+                    id="message-input"
+                    placeholder="Enter your message..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+            <p id="status-message"></p>
+
+        </section>
+
+
+        <section class="message-log-section">
+
+            <h2>Message Log</h2>
+
+            <div id="message-list">
+                <p>Loading messages...</p>
+            </div>
+
+        </section>
+
+
+        <footer>
+            <p>Rapture Communications Network</p>
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

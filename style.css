@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/74/887/620/bioshock-rapture-party-globe-2560x1440-video-games-bioshock-hd-art-wallpaper-preview.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 40px 20px;
+
+    color: #f5e7c8;
+}
+
+
+.terminal {
+    max-width: 850px;
+
+    margin: auto;
+
+    padding: 30px;
+
+    background-color: rgba(10, 20, 25, 0.94);
+
+    border: 2px solid #b89b5e;
+    border-radius: 10px;
+
+    box-shadow: 0 0 25px black;
+}
+
+
+header {
+    text-align: center;
+
+    border-bottom: 1px solid #b89b5e;
+
+    padding-bottom: 20px;
+}
+
+
+h1 {
+    color: #e3c26f;
+
+    margin-top: 0;
+
+    font-size: 38px;
+}
+
+
+h2 {
+    color: #e3c26f;
+}
+
+
+.message-form-section,
+.message-log-section {
+    margin-top: 30px;
+
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.35);
+
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+
+label {
+    font-weight: bold;
+}
+
+
+textarea {
+    min-height: 140px;
+
+    resize: vertical;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    font-family: Arial, sans-serif;
+
+    border: 1px solid #b89b5e;
+
+    border-radius: 5px;
+
+    background-color: #f3eee0;
+
+    color: #222;
+}
+
+
+button {
+    width: 160px;
+
+    padding: 12px;
+
+    background-color: #1b4c59;
+
+    color: white;
+
+    border: 1px solid #d0b66b;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #286f7c;
+}
+
+
+#status-message {
+    min-height: 20px;
+
+    color: #d7c07a;
+}
+
+
+.message-card {
+    margin-top: 15px;
+
+    padding: 15px;
+
+    background-color: rgba(255, 255, 255, 0.07);
+
+    border-left: 4px solid #1b8799;
+
+    border-radius: 4px;
+
+    white-space: pre-wrap;
+
+    overflow-wrap: anywhere;
+}
+
+
+.message-number {
+    color: #d7c07a;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
+}
+
+
+footer {
+    text-align: center;
+
+    margin-top: 30px;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #555;
+
+    color: #888;
+}
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .terminal {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
